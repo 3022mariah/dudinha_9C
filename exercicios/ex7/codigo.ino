@@ -41,13 +41,13 @@ var5 = digitalRead(bot5);
 var7 = digitalRead(bot7);
   
   if(var){
-Serial.println("Do");
+Serial.println("Si");
   }
   if(var2){
 Serial.println("Re");
   }
   if(var3){
-Serial.println("Mi");
+Serial.println("Do");
   }
   if(var4){
 Serial.println("Fa");
@@ -56,15 +56,15 @@ Serial.println("Fa");
 Serial.println("Sol");
   }
     if(var4){
-Serial.println("Fa");
+Serial.println("Mi");
   }
   if(var5){
-Serial.println("Sol");
-  }
-    if(var6){
 Serial.println("Lá");
   }
+    if(var6){
+Serial.println("Sol");
+  }
   if(var7){
-Serial.println("Si");
+Serial.println("Re");
   }
      }
