@@ -33,18 +33,18 @@ var4 = digitalRead(bot4);
 var5 = digitalRead(bot5);
   
   if(var){
-Serial.println("oi professor");
+Serial.println("opa prof tudo bem?");
   }
   if(var2){
-Serial.println("Tudo bem com vc ?");
+Serial.println("eu consegui fazer a programação!!");
   }
   if(var3){
-Serial.println("vc vai me dar um 10 ?");
+Serial.println("n sei oque escrever");
   }
   if(var4){
-Serial.println("nao sei mais oq escrever");
+Serial.println("é então gosta de ser professor?");
   }
   if(var5){
-Serial.println("tchau professor");
+Serial.println("mas é isso, tchau");
   }
 }
